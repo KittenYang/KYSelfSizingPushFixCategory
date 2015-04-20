@@ -3,7 +3,8 @@
 
 ##How to use
 
-三步走：
+###三步走：
+
 1.在`- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath`中，增加：
 ```
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -32,4 +33,4 @@
 
 
 
-That's it!完美解决！
+*That's it!完美解决！*
