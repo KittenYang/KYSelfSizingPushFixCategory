@@ -1,0 +1,2 @@
+# KYSelfSizingPushFixCategory
+解决了iOS8中使用Self-Sizing Cell自动布局时，push时发生cell跳跃的bug
