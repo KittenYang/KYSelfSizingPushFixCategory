@@ -1,5 +1,20 @@
-# KYSelfSizingPushFixCategory
+<p align="left" >
+  <img src="logo.png" alt="KYSelfSizingPushFixCategory" title="KYSelfSizingPushFixCategory">
+</p>
+
+
+![CocoaPods Version](https://img.shields.io/badge/pod-v1.0.0-brightgreen.svg)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Platform](https://img.shields.io/badge/platform-iOS-red.svg)
+
+
 给UITableViewController增加了一个Category。解决了iOS8中使用Self-Sizing Cell自动布局时，push时发生cell跳跃的bug
+
+
+#Installation
+
+`pod 'UITableViewController+KYSelfSizingPushFix', '~> 1.0.0'`
+
 
 ##How to use
 
