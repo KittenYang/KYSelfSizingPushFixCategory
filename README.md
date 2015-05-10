@@ -6,7 +6,8 @@
 ###三步走：
 
 **1.在`- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath`中，增加：**
-```
+
+```objective-c
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
 
     ...
@@ -22,7 +23,8 @@
 ```
 
 **2.实现`estimatedHeightForRowAtIndexPath:`这个方法：**
-```
+
+```objective-c
 -(CGFloat)tableView:(UITableView *)tableView estimatedHeightForRowAtIndexPath:(NSIndexPath *)indexPath {
     return [self ky_getEstimatedCellHeightFromCache:indexPath defaultHeight:250.0f];
 }
