@@ -1,15 +1,14 @@
 //
 //  UITableViewController+SelfSizingPushFix.m
-//  UnNamedWeibo
 //
 //  Created by Kitten Yang on 4/20/15.
 //  Copyright (c) 2015 Kitten Yang. All rights reserved.
 //
 
-#import "UITableViewController+KYSelfSizingPushFix.h"
+#import "UITableView+KYSelfSizingPushFix.h"
 #import <objc/runtime.h>
 
-@implementation UITableViewController (SelfSizingPushFix)
+@implementation UITableView (SelfSizingPushFix)
 
 #pragma mark - 添加变量 estimatedRowHeightCache
 
