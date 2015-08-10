@@ -8,7 +8,8 @@
 ![Platform](https://img.shields.io/badge/platform-iOS-red.svg)
 
 
-给UITableViewController增加了一个Category。解决了iOS8中使用Self-Sizing Cell自动布局时，push时发生cell跳跃的bug
+
+Fix the bug of 'Self-Sizing-Cell' when push to next ViewController the tableView position will change.
 
 
 #Installation
@@ -18,9 +19,9 @@
 
 ##How to use
 
-###三步走：
+###Three Steps：
 
-**1.在`- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath`中，增加：**
+**1.Add code in `- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath` **
 
 ```objective-c
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -37,7 +38,7 @@
 }
 ```
 
-**2.实现`estimatedHeightForRowAtIndexPath:`这个方法：**
+**2.Implement `estimatedHeightForRowAtIndexPath:`：**
 
 ```objective-c
 -(CGFloat)tableView:(UITableView *)tableView estimatedHeightForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -46,8 +47,8 @@
 ```
 
 
-**3.使用` [self ky_tableViewReloadData];`替换`[self.tableView reloadData];`**
+**3.Remember to use` [self ky_tableViewReloadData];` rather than `[self.tableView reloadData];`**
 
 
 
-##*That's it!完美解决！*
+##*You're done!*
