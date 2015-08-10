@@ -9,7 +9,7 @@
 
 
 
-Fix the bug of 'Self-Sizing-Cell' when push to next ViewController the tableView position will change.
+A UITableView Category for fixing the bug of 'Self-Sizing-Cell' when push to next ViewController the tableView position will change.
 
 
 #Installation
