@@ -21,7 +21,7 @@ Fix the bug of 'Self-Sizing-Cell' when push to next ViewController the tableView
 
 ###Three Steps：
 
-**1.Add code in `- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath` **
+**1.Add code in `- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath`**
 
 ```objective-c
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
